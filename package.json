@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon contacts.js",
-    "stat": "node --watch contacts.js"
+    "dev": "nodemon index.js",
+    "stat": "node --watch index.js"
   },
   "author": "",
   "license": "ISC",
