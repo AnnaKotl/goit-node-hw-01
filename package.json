@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "stat": "node --watch index.js"
+    "dev": "nodemon contacts.js",
+    "stat": "node --watch contacts.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
   }
 }

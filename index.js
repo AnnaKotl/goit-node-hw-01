@@ -1,3 +1,5 @@
+const Contacts = require("./contacts");
+
 const { Command } = require("commander");
 const program = new Command();
 program
@@ -11,7 +13,6 @@ program.parse(process.argv);
 
 const argv = program.opts();
 
-// TODO: рефакторити
 function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
